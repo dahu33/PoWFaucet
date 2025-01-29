@@ -39,6 +39,6 @@ jobs:
             --platform linux/amd64,linux/arm64 \
             --file Dockerfile \
             --tag pk910/powfaucet:v${{ env.server_version }} \
-            --tag pk910/powfaucet:v2-stable 
-            #\
+            --tag pk910/powfaucet:v2-stable \
+            .
             # --push .
